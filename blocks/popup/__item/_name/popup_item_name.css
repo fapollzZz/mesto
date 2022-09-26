@@ -1,0 +1,15 @@
+.popup_item_name{
+    max-width: 358px;
+    border: none;
+    box-shadow: none;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin: 0;
+    margin-bottom: 13px;
+    padding: 0;
+    outline: none;
+}

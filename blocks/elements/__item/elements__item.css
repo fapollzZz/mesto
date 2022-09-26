@@ -1,0 +1,6 @@
+.elements__item{
+    align-items: flex-end;
+    max-width: 282px;
+    border-radius: 10px;
+    background: #fff;
+}
