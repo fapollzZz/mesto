@@ -2,3 +2,11 @@
     max-width: 142px;
     margin: 0 0 41px;
 }
+
+@media screen and (max-width:480px) {
+    .header__logo{
+        max-width: 103px;
+        margin: 0 0 32px 27px;
+    }
+
+}

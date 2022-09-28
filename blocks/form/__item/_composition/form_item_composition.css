@@ -2,3 +2,8 @@
     border: none;
     border-bottom: 1px solid #000;
 }
+@media screen and (max-width:480px) {
+    .form__item_composition{
+        max-width: 238px;
+    }
+}

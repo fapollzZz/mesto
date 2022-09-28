@@ -4,3 +4,18 @@
     max-width: 318px;
     margin: 66px auto 60px 200px;
 }
+
+@media screen and (max-width:970px) {
+    .footer{
+        max-width: 300px;
+        margin: 48px auto 36px;
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+    .footer{
+        max-width: 282px;
+        margin: 48px auto 36px;
+    }
+}

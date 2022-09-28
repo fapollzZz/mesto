@@ -1,12 +1,13 @@
 const popupOpenButton = document.querySelector('.profile__open-popup');
 const popup = document.querySelector('.popup');
 const popupCloseButton = popup.querySelector('.popup__close');
-const popupSaveButton = popup.querySelector(".popup__button-save");
 
 let nameInput = popup.querySelector(".form__item_name");
 let descriptionInput = popup.querySelector(".form__item_composition");
-let userName = document.querySelector(".popup_item_name");
-let userDescription = document.querySelector(".popup_item_composition");
+let userName = document.getElementById("name");
+let userDescription = document.getElementById("composition");
+let form = document.querySelector(".popup__container")
+
 
 function popupToggle() {
     popup.classList.toggle('popup__opened');
@@ -18,6 +19,7 @@ function popupSave(evt){
     evt.preventDefault();
     userName.textContent = nameInput.value;
     userDescription.textContent = descriptionInput.value;
+    console.log(userName);
 }
 
-popupSaveButton.addEventListener('submit', popupSave);
+form.addEventListener('submit', popupSave);

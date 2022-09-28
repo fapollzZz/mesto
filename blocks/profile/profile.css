@@ -5,3 +5,13 @@
     max-width: 880px;
     margin: 0 auto 50px;
 }
+
+@media screen and (max-width:663px) {
+    .profile{
+        flex-direction: column;
+        justify-content: center;
+        max-width: 282px;
+        margin: 42px auto 36px;
+    }
+
+}
