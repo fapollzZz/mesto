@@ -1,7 +1,7 @@
 const like = document.querySelector(".elements__button");
 
 
-function clickButton(){
+function clickButton() {
     like.classList.toggle("active");
 
 }

@@ -1,4 +1,4 @@
-.popup__close{
+.popup__close {
     position: absolute;
     top: -40px;
     right: -40px;
@@ -6,12 +6,12 @@
     background-size: contain;
 }
 
-.popup__close:hover{
+.popup__close:hover {
     opacity: 0.6;
 }
 
 @media screen and (max-width:480px) {
-    .popup__close{
+    .popup__close {
         right: -5px;
         max-width: 20px;
         height: auto;
