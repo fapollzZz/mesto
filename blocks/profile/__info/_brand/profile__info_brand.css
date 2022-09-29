@@ -1,4 +1,4 @@
-.profile__info_title {
+.profile__info_brand {
     max-width: 294px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -6,6 +6,9 @@
     font-size: 42px;
     line-height: 48px;
     color: #fff;
+    background: none;
+    border: none;
+    box-shadow: none;
     margin: 0;
     padding: 0;
     text-overflow: ellipsis;
@@ -14,7 +17,7 @@
 }
 
 @media screen and (max-width:480px) {
-    .profile__info_title {
+    .profile__info_brand {
         font-size: 27px;
         line-height: 33px;
         text-align: center;

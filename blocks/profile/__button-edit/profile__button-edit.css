@@ -1,4 +1,4 @@
-.profile__button-edit{
+.profile__button-edit {
     background: none;
     border: none;
     box-shadow: none;
@@ -10,15 +10,15 @@
     cursor: pointer;
 }
 
-.profile__button-edit:hover{
+.profile__button-edit:hover {
     opacity: 0.6;
 }
 
 
 @media screen and (max-width:480px) {
-    .profile__button-edit{
+    .profile__button-edit {
         max-width: 18px;
         height: auto;
     }
-    
+
 }
