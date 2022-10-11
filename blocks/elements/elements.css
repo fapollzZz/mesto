@@ -13,8 +13,8 @@
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 11px;
         grid-row-gap: 15px;
+        justify-content: center;
         max-width: 680px;
-        margin: 0 auto;
     }
 
 }
@@ -23,7 +23,6 @@
     .elements {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         max-width: 282px;
         width: 100%;
         gap: 20px;

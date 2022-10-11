@@ -22,5 +22,6 @@
     .profile__info {
         grid-template-columns: 189px 1fr;
         grid-column-gap: 10px;
+        margin: 26px 19px 36px;
     }
 }

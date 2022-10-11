@@ -10,15 +10,16 @@ let form = document.querySelector(".popup__container")
 
 
 function popupOpen() {
-    popup.classList.toggle('popup__opened');
-}
-
-function popupClose() {
-    popup.classList.toggle('popup__opened');
+    popup.classList.toggle('popup_opened');
     userName.value = "Жак-Ив Кусто";
     profileName.value = "Жак-Ив Кусто";
     userDescription.value = "Исследователь океана";
     profileAboutMe.value = "Исследователь океана";
+
+}
+
+function popupClose() {
+    popup.classList.toggle('popup_opened');
 }
 
 popupOpenButton.addEventListener('click', popupOpen);
@@ -26,11 +27,9 @@ popupCloseButton.addEventListener('click', popupClose);
 
 function popupSave(evt) {
     evt.preventDefault();
-    userName.textContent = userName.value;
-    userDescription.textContent = userDescription.value;
-    profileName.value = userName.textContent;
-    profileAboutMe.value = userDescription.textContent;
-    popupOpen();
+    profileName.value = userName.value;
+    profileAboutMe.value = userDescription.value;
+    popupClose();
 }
 
 

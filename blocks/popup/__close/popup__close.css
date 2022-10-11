@@ -1,9 +1,10 @@
 .popup__close {
+    border: none;
+    background: none;
     position: absolute;
     top: -40px;
     right: -40px;
     cursor: pointer;
-    background-size: contain;
 }
 
 .popup__close:hover {
