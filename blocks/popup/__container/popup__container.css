@@ -8,6 +8,7 @@
     position: relative;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 @media screen and (max-width:480px) {

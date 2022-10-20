@@ -2,11 +2,11 @@ const popupOpenButton = document.querySelector('.profile__open-popup');
 const popup = document.querySelector('.popup');
 const popupCloseButton = popup.querySelector('.popup__close');
 
-let profileName = document.getElementById("profileName");
-let profileAboutMe = document.getElementById("profileAbout");
-let userName = document.getElementById("name");
+let profileName = document.querySelector(".profile__info_brand");
+let profileAboutMe = document.getElementsByName("profileComposition");
+let userName = document.getElementsByName('name');
 let userDescription = document.getElementById("composition");
-let form = document.querySelector(".popup__container")
+let form = document.querySelector('.form');
 
 
 function popupOpen() {
@@ -27,8 +27,8 @@ popupCloseButton.addEventListener('click', popupClose);
 
 function popupSave(evt) {
     evt.preventDefault();
-    profileName.value = userName.value;
-    profileAboutMe.value = userDescription.value;
+    profileName.textContent = userName.value;
+    
     popupClose();
 }
 

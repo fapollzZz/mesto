@@ -2,6 +2,7 @@
     border: none;
     background: none;
     box-shadow: none;
+    background-image: url(../../../images/elements/Vector.svg);
     width: 22px;
     height: 19px;
     padding: 0;
@@ -10,7 +11,7 @@
 }
 
 .elements__button_active {
-    background-image: url("../images/elements/Union.svg");
+    background-image: url(../../../images/elements/Union.svg);
 }
 
 .elements__button:hover {

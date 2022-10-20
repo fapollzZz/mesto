@@ -1,5 +1,4 @@
 .popup_item_group {
-    max-width: 358px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -7,6 +6,5 @@
     line-height: 17px;
     color: #000;
     margin: 0;
-    margin-bottom: 13px;
     padding: 0;
 }
